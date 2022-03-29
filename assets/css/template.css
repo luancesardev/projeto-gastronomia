@@ -200,18 +200,26 @@ h2 {
     line-height: 180%;
     max-width: 830px;
     color: #ffffff;
-    font-size: 20px;
+    font-size: 25px;
     margin: 0 auto;
+}
+.title-about {
+    color: rgb(255, 196, 0);
+    font-size: 45px;
 }
 
 /* Sobre */
 
-/* Produtos */
-.products {
-    color: #f6f5dc;
+/* servicos */
+
+
+.title-service {
+    color: rgb(255, 196, 0);
+    font-size: 45px;
+    margin-top: 30px;
 }
 
-.bg-products {
+.bg-services {
     /* background-position: 0% 57.7969px; */
     background-image: url("../img/bg-products.jpg");
     background-size: cover;
@@ -224,7 +232,7 @@ h2 {
     padding-bottom: 60px;
 }
 
-.products .heading {
+.services .heading {
     font-size: 30px;
     max-width: 700px;
     text-align: center;
@@ -236,7 +244,7 @@ h2 {
 }
 
 h3.heading {
-    color: #ffffff;
+    color: rgb(255, 196, 0);
 }
 
 .heading {
@@ -256,7 +264,7 @@ h3 {
     margin-inline-end: 0px;
 }
 
-.products-text p {
+.services-text p {
     font-family: Tahoma, sans-serif;
     font-style: italic;
     font-size: 16px;
@@ -266,13 +274,21 @@ h3 {
 
 .pattern {
     height: 60px;
-    background-image: url("../img/bg-pattern.png");
+    background-image: url("../img/bg-pattern.jpg");
+    background-size: cover;
     border-bottom: 2px solid rgba(8, 8, 8, 0.28);
 }
 
-#icones-produtos {
+#icones-servicos {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.img-pratos {
+    padding: 5px 0 5px 0;
+    margin: 5px 0 5px 0;
+    border-radius: 15px;
 }
 
 
@@ -346,6 +362,9 @@ footer .copyright p {
     text-shadow: 1px 1px 1px rgb(0 0 0 / 10%);
     font-family: Tahoma, sans-serif;
     font-size: 16px;
+}
+footer .git {
+    color: rgba(255, 255, 255, 0.459);
 }
 .cont-footer {
     align-items: center;
@@ -514,7 +533,7 @@ img {
     border: 0;
 }
 
-.col-produtos h3 {
+.col-servicos h3 {
     font-size: 14px;
 }
 
@@ -591,11 +610,11 @@ img {
     .icons_banner {
         padding: 0;
     }
-    .products-text{
+    .services-text{
         display: flex;
         flex-direction: column;
     }
-    #icones-produtos {
+    #icones-servicos {
         justify-content: baseline;
         flex-wrap: wrap;
         /* flex-direction: column; */
