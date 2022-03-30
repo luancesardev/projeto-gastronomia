@@ -636,7 +636,7 @@ img {
 
     .img-pratos {
         max-width: 350px;
-        padding-left: 15px;
+        /* padding-left: 15px; */
     }
 
     .max-margin-top {
@@ -728,7 +728,7 @@ img {
     }
 
     .back-to-top {
-        right: 15px;
+        right: 30px;
         bottom: 50px;
     }
 
