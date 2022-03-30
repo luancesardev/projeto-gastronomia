@@ -373,7 +373,11 @@ footer .git {
 .cont-footer {
     align-items: center;
 }
-
+.altech img{
+    max-width: 50px;
+    max-height: 50px;
+    margin-bottom: 20px;
+}
 iframe {
     border-radius: 10px;
 }
@@ -746,6 +750,10 @@ img {
         margin-left: 28px;
         /* margin-top: 25px; */
         flex-wrap: wrap;
+
+    }
+    .altech img {
+        margin-top: 20px;
 
     }
 
